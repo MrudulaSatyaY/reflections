@@ -1,0 +1,74 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff helped to highlight the places where a change was made,
+    removing all those unneccasary text that remained unchanged.
+    As the unchanged text/code is usually more than the changed code,
+    it usually distracts us from focusing on the psooible problem areas.
+    Bug should be at the place where a change was made, hence finding
+    the bug was easier as soon as the differences were pointed out
+    by the diff command.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It increases my efficiengcy as a programmer because in cases of
+    any crisis situation such as a bug that entirely changed the 
+    working of the program and the code is quite long or a system
+    failure occured and I lost the whole code I can move back to
+    the previous correctly working version of the program and
+    redo the changes. This saves me a lot of time and stress,
+    hence making me more efficient programmer.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: Every version will be able to compile and would be woeking code.
+    	  Every version will solve a bug or do something new or useful.
+    	  Unneccasasry versions (decided based on context) will not be stored
+    Cons: Prone to user error. If we forget to commit, there will be no
+          use of having a version control system in the first place.
+          Prone to too small and too big commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was made keeping code in mind. In coding, it makes sense that all the 
+    related files be saved when a commit is made as all the files together 
+    work to make the software work.Individually committing all the related 
+    files is a hassle and time taking process. On the other hand, Google Docs
+    was created keeping the documents used by general audience. Generally,
+    text documents have full-fledged documents on their own and do not 
+    require other docs to have meaning. Hence, treating all files as 
+    seperate entities makes sense.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log command can be used to know all the changes that have been made 
+    to the code from the beginning. It also has a description that states clearly
+    the purpose of that change like if a new feature was added or a bug
+    was removed. git diff generally helps in finding bugs by pin-pointing
+    differences. We also know how many lines of code are added and deleted 
+    and which were those lines using git diff. git log with a --stat argument
+    also tells us how many lines of code were added and deleted in each commit,
+    although it does not tell which were those lines. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The fact that I can easily revert back to the previous working and tested 
+    version of the code using a simple command called git checkout.Even if 
+    I break something, I will have a working older version of it with the
+    added knowledge that if I change a particular aspect of the code, 
+    then things will go hazy-crazy.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for my OUR project code as it is a very huge and 
+    involves many useful stages of code which i want to reuse as separate code
+    whenever needed and most importantly I want to be able to save the code base
+    online so that I never lose it (again!). I started to learn git because I
+    lost the whole code base for my OUR project and this time I want to be
+    more careful, not only for this project but for every project I do
+    in the future.
