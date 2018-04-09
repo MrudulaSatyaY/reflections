@@ -1,0 +1,12 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  1. If I am working on a project in a team, it is required to keep the repository at a location where
+     everyone in the team can access and contribute to the project. This is only possible with a remote
+     repository. If we work on our local repositories features added or changes made by other members 
+     will not be reflected in mine and vice versa and everyone will end up having different versions of
+     the same project.
+  2. If I want to share my work with the public so that they can use it in their projects or learn 
+     from my work or even contribute to better my solution/code.
+  3. When I want to take a backup of my code. Dropbox or google drive can come handy but Github is 
+     specially made for coding and hence the files will be stored in a format where if I loose my
+     local repo, I can clone the github repo and use it as I would use normally without any overheads
+     of copy pasting anywhere.
