@@ -1,4 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
   Following are the scenarios when I would want to use a remote repository:
     1. If I am working on a project in a team, it is required to keep the repository at a location where
        everyone in the team can access and contribute to the project. This is only possible with a remote
@@ -11,3 +12,16 @@ When would you want to use a remote repository rather than keeping all your work
        specially made for coding and hence the files will be stored in a format where if I loose my
        local repo, I can clone the github repo and use it as I would use normally without any overheads
        of copy pasting anywhere.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+   I want to pull changes manually from remote repository because, many people can 
+   possibly make different changes on different branches on the remote repository.
+   That might include the same files I am modifying sometimes, but a different part
+   of it. Now, while I am working git suddenly syncs with the newly added/modifed 
+   files onto my local repo, everything will become haphazard and un-organized and I 
+   may also loose my current code if i have not commited them as the master now has
+   changed and the file that I modifying also changed in between. My code may not 
+   compile. Only once I am sure with the my code and teh Github repo  changes and
+   make sure no unneccasry changes are happening to the project on my local, I will
+   want to pull the Github repo. 
