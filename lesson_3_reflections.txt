@@ -25,3 +25,23 @@ Why might you want to always pull changes manually rather than having Git automa
    compile. Only once I am sure with the my code and teh Github repo  changes and
    make sure no unneccasry changes are happening to the project on my local, I will
    want to pull the Github repo. 
+   
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  Cloning is basically copying a repository that is on Github to your computer to have
+  a local copy of that Github repository or copying a local repository on one PC to 
+  another PC to store it as a local repository on it. Forking is basically creating a
+  copy of an available github repository (somebody else's) to your own Github account on github 
+  servers itself and not locally copying it on your PC. Branching is basically 
+  creating different commit labels on your local repository/Github repository.
+  These branches basically are connected to the master branch but perform a 
+  different logical change to the whole project which is experimental adn have their
+  own individual commit hstory through the branch name.
+  I will use forking when I want to work on a project already on github and share my
+  changes to it when i dont have permission to change the original code of that repo. Also, as
+  forks will be linked to the orginal repo, I give credit to the original owner. And without
+  forking a lotof work needs to be if I am working a team.(clone,push to my repo, team member 
+  clone form my repo, set my repo as  remote) When I want to work on a repository that I have 
+  access and have to code on my local PC and cannot make changes on github directly 
+  i will use cloning. Branching i will use when i am trying out an experimental 
+  feature but i dont want to damage the original working project until I am sure.
